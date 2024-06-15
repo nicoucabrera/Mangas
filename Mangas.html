@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Mangas</title>
+    <link rel="stylesheet" href="style mangas.css"> <!-- Corrección del enlace CSS -->
+</head>
+<body>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Candara, sans-serif;
+        }
+        .header {
+            background-color: #868686; /* Color de fondo del encabezado */
+            color: #ffffff;
+            padding: 20px; /* Espacio alrededor del contenido */
+            text-align: center; /* Alinear el texto al centro */
+            width: 100%; /* Ocupar todo el ancho disponible */
+        }
+        .search-container {
+            background-image: url('fondo2.jpg');
+            width: 100%; /* Ocupar todo el ancho disponible */
+            padding: 75px 75px; /* Relleno superior e inferior de 10px */
+            
+        }
+
+        .header h1 {
+            font-size: 36px; /* Tamaño de fuente para el título principal */
+            margin-bottom: 0px; /* Espacio inferior del título */
+        }
+
+        .header nav {
+            margin-top: 0px; /* Espacio superior del menú de navegación */
+        }
+
+        .header nav a {
+            text-decoration: none; /* Quitar subrayado de los enlaces */
+            color: #ffffff; /* Color de texto de los enlaces */
+            margin: 0 10px; /* Espacio entre los enlaces */
+        }
+
+        .footer {
+            background-color: #868686; /* Color de fondo del pie de página */
+            color: #fff; /* Color de texto del pie de página */
+            padding: 10px; /* Espacio alrededor del contenido */
+            text-align: center; /* Alinear el texto al centro */
+            width: 100%; /* Ocupar todo el ancho disponible */
+        }
+
+        .footer h1 {
+            font-size: 22px; /* Tamaño de fuente para los encabezados del pie de página */
+        }
+
+        p {
+        font-size: 22px; /* Tamaño de fuente para los párrafos */
+        line-height: 1.5; /* Espaciado entre líneas */
+        margin-bottom: 15px; /* Espacio inferior entre párrafos */
+        }
+
+        h1 {
+        font-size: 38px; /* Tamaño de fuente para los encabezados h1 */
+        margin-bottom: 20px; /* Espacio inferior entre h1 y el siguiente elemento */
+        }
+    </style>
+    <div class="title">
+        <button id="toggle-dark-mode" class="dark-mode-toggle">Dark Mode</button> <!-- Botón para alternar el modo oscuro -->
+        <div class="body">
+        <h1>Bienvenido a mi Biblioteca Web</h1>
+        <section>
+        <p>Aqui encontraras mi coleccion completa de mangas!</p>
+        </section>
+        <section>
+        <p>Selecciona uno para ver una reseña sin (o no tantos) spoilers hecha por mi</p>
+        </section>
+        </div>
+    </div>
+    <!-- Barra de búsqueda -->
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Buscar manga...">
+        <button id="search-button">Buscar</button>
+        <button id="clear-button">Limpiar</button>
+    </div>
+    <!-- Contenedor del mensaje de búsqueda -->
+    <p id="search-message" style="color: rgb(255, 0, 0); text-align: center;"></p>
+
+
+        </div>
+        <!-- Más botones aquí -->
+    </div>
+    <div class="btn-container">
+        <div class="btn-wrapper">
+            <p class="btn-title">Shingeki No Kiojin</p>
+            <button class="btn SNK"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Jojo's</p>
+            <button class="btn JOJOS"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">20th Century Boys</p>
+            <button class="btn CenturyBoys"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Slam Dunk</p>
+            <button class="btn SlamDunk"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Demon Slayer</p>
+            <button class="btn DemonSlayer"></button>
+        </div>
+        
+    </div>
+
+    <div class="btn-container">
+        <div class="btn-wrapper">
+            <p class="btn-title">Jigokuraku</p>
+            <button class="btn Jigokuraku"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Indigno De Ser Humano</p>
+            <button class="btn IndignoDeSerHumano"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Code Geas</p>
+            <button class="btn CodeGeas"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Another</p>
+            <button class="btn Another"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Steins Gate</p>
+            <button class="btn SteinsGate"></button>
+        </div>
+    </div>
+    <div class="btn-container">
+        <div class="btn-wrapper">
+            <p class="btn-title">Death Note</p>
+            <button class="btn DeathNote"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Tokyo Revengers</p>
+            <button class="btn TokyoRev"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Wind Breaker</p>
+            <button class="btn WindBreaker"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Haikyuu!</p>
+            <button class="btn Haikyu"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Blue Lock</p>
+            <button class="btn BlueLock"></button>
+        </div>
+    </div>
+    <div class="btn-container">
+        <div class="btn-wrapper">
+            <p class="btn-title">Rurouni Kenshin</p>
+            <button class="btn RurouniKenshin"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Heavenly Delusion</p>
+            <button class="btn HeavenlyDelusion"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Ajin Semi-Humano</p>
+            <button class="btn Ajin"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Kaiju N8</p>
+            <button class="btn Kaiju"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Loser Ranger</p>
+            <button class="btn LoserRanger"></button>
+        </div>
+    </div>
+    <div class="btn-container">
+        <div class="btn-wrapper">
+            <p class="btn-title">Chainsaw Man</p>
+            <button class="btn Chainsaw"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">My Hero Academia</p>
+            <button class="btn BNHA"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Gachiakuta</p>
+            <button class="btn Gachiakuta"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Dr. Stone</p>
+            <button class="btn DrStone"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Fire Force</p>
+            <button class="btn FireForce"></button>
+        </div>
+    </div>
+    <div class="btn-container">
+        <div class="btn-wrapper">
+            <p class="btn-title">Bungo Stray Dogs</p>
+            <button class="btn Bungo"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Shuumatsu no valkyrie</p>
+            <button class="btn Shuumatsu"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Black Clover</p>
+            <button class="btn BlackClover"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Yu-Gi-Oh!</p>
+            <button class="btn YuGiOh"></button>
+        </div>
+        <div class="btn-wrapper">
+            <p class="btn-title">Jujutsu Kaisen</p>
+            <button class="btn Jujutsu"></button>
+        </div>
+    </div>
+    <div class="footer">
+    <div class="social-media-section">
+        <h1>Sígueme en mis redes!</h1>
+        <div class="social-media-icons">
+            <a href="https://www.instagram.com/nicoucabrera/" target="_blank">
+                <img src="insta.jpg" alt="Instagram"/></a>
+            <a href="https://www.facebook.com/nicoucabrera7/" target="_blank">
+                <img src="FB.jpg" alt="Facebook"/></a>
+            <a href="https://twitter.com/nicoucabrera/" target="_blank">
+                <img src="xtw.jpg" alt="Twitter"/></a>
+        </div>
+    </div>
+
+    <div class="social-media-section">
+        <h1>Puedes ver mis otros proyectos aquí:</h1>
+        <div class="social-media-icons">
+            <a href="https://github.com/nicoucabrera/" target="_blank">
+                <img src="GitHub-logo.jpg" alt="GitHub"/> 
+            </a>
+        </div>
+    </div>
+    <p>&copy; 2024 Avisame gabriel avisame si funciona querido</p>
+</div>
+    <script src="Mangas.js"></script> <!-- Enlace al archivo JavaScript -->
+</body>
+</html>
