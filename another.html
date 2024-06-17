@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Mangas</title>
+    <link rel="stylesheet" href="style mangas.css"> <!-- Corrección del enlace CSS -->
+</head>
+<body>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Candara, sans-serif;
+        }
+        .header {
+            background-color: #868686; /* Color de fondo del encabezado */
+            color: #ffffff;
+            padding: 20px; /* Espacio alrededor del contenido */
+            text-align: center; /* Alinear el texto al centro */
+            width: 100%; /* Ocupar todo el ancho disponible */
+        }
+        .search-container {
+            background-image: url('fondo2.jpg');
+            width: 100%; /* Ocupar todo el ancho disponible */
+            padding: 75px 75px; /* Relleno superior e inferior de 10px */
+            
+        }
+
+        .header h1 {
+            font-size: 36px; /* Tamaño de fuente para el título principal */
+            margin-bottom: 0px; /* Espacio inferior del título */
+        }
+
+        .header nav {
+            margin-top: 0px; /* Espacio superior del menú de navegación */
+        }
+
+        .header nav a {
+            text-decoration: none; /* Quitar subrayado de los enlaces */
+            color: #ffffff; /* Color de texto de los enlaces */
+            margin: 0 10px; /* Espacio entre los enlaces */
+        }
+
+        .footer {
+            background-color: #868686; /* Color de fondo del pie de página */
+            color: #fff; /* Color de texto del pie de página */
+            padding: 10px; /* Espacio alrededor del contenido */
+            text-align: center; /* Alinear el texto al centro */
+            width: 100%; /* Ocupar todo el ancho disponible */
+        }
+
+        .footer h1 {
+            font-size: 22px; /* Tamaño de fuente para los encabezados del pie de página */
+        }
+
+        p {
+        font-size: 22px; /* Tamaño de fuente para los párrafos */
+        line-height: 1.5; /* Espaciado entre líneas */
+        margin-bottom: 15px; /* Espacio inferior entre párrafos */
+        }
+
+        h1 {
+        font-size: 38px; /* Tamaño de fuente para los encabezados h1 */
+        margin-bottom: 20px; /* Espacio inferior entre h1 y el siguiente elemento */
+        }
+    </style>
+    <div class="title">
+        <button id="toggle-dark-mode" class="dark-mode-toggle">Dark Mode</button> <!-- Botón para alternar el modo oscuro -->
+        <div class="body">
+        <h1>Bienvenido a mi Biblioteca Web</h1>
+        <section>
+        <p>Aqui encontraras mi coleccion completa de mangas!</p>
+        </section>
+        <section>
+        <p>Selecciona uno para ver una reseña sin (o no tantos) spoilers hecha por mi</p>
+        </section>
+        </div>
+    </div>
+    <!-- Barra de búsqueda -->
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Buscar manga...">
+        <button id="search-button">Buscar</button>
+        <button id="clear-button">Limpiar</button>
+    </div>
+    <!-- Contenedor del mensaje de búsqueda -->
+    <p id="search-message" style="color: rgb(255, 0, 0); text-align: center;"></p>
+
+
+    </div>
+    <div class="footer">
+        <div class="social-media-section">
+            <h1>Sígueme en mis redes!</h1>
+            <div class="social-media-icons">
+                <a href="https://www.instagram.com/nicoucabrera/" target="_blank">
+                    <img src="insta.jpg" alt="Instagram"/></a>
+                <a href="https://www.facebook.com/nicoucabrera7/" target="_blank">
+                    <img src="FB.jpg" alt="Facebook"/></a>
+                <a href="https://twitter.com/nicoucabrera/" target="_blank">
+                    <img src="xtw.jpg" alt="Twitter"/></a>
+            </div>
+        </div>
+    
+        <div class="social-media-section">
+            <h1>Puedes ver mis otros proyectos aquí:</h1>
+            <div class="social-media-icons">
+                <a href="https://github.com/nicoucabrera/" target="_blank">
+                    <img src="GitHub-logo.jpg" alt="GitHub"/> 
+                </a>
+            </div>
+        </div>
+        <p>&copy; 2024 VSC.</p>
+    </div>
+        <script src="Mangas.js"></script> <!-- Enlace al archivo JavaScript -->
+    </body>
+    </html>
