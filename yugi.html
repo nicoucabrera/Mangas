@@ -78,15 +78,14 @@
         </div>
     </div>
     <!-- Barra de búsqueda -->
-    <div class="search-container">
-        <input type="text" id="search-bar" placeholder="Buscar manga...">
-        <button id="search-button">Buscar</button>
-        <button id="clear-button">Limpiar</button>
+    <div class="back">
+        <button id="back-button">Volver</button>
     </div>
-    <!-- Contenedor del mensaje de búsqueda -->
-    <p id="search-message" style="color: rgb(255, 0, 0); text-align: center;"></p>
-
-
+    <script> 
+        document.querySelector('#back-button').addEventListener('click', function() {
+            window.location.href = 'index.html';
+        });
+    </script>
     </div>
     <div class="footer">
         <div class="social-media-section">
