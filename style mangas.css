@@ -11,26 +11,6 @@ body {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    /* Estilos para pantallas con un ancho máximo de 768px (teléfonos móviles) */
-    #main {
-      width: 100%; /* El elemento principal ocupa todo el ancho de la pantalla */
-    }
-    .sidebar {
-      display: none; /* Oculta la barra lateral en pantallas pequeñas */
-    }
-    .btn-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-        width: 100%; /* El elemento principal ocupa todo el ancho de la pantalla */
-
-    }
-  }
-    
-
 
 
 body.dark-mode {
