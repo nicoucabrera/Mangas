@@ -11,7 +11,16 @@ body {
     text-align: center;
 }
 
-  
+@media (max-width: 768px) {
+    /* Estilos para pantallas con un ancho máximo de 768px (teléfonos móviles) */
+    #main {
+      width: 100%; /* El elemento principal ocupa todo el ancho de la pantalla */
+    }
+    .sidebar {
+      display: none; /* Oculta la barra lateral en pantallas pequeñas */
+    }
+  }
+    
 
 
 
