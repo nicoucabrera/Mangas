@@ -11,7 +11,25 @@ body {
     text-align: center;
 }
 
-
+@media (max-width: 768px) {
+    /* Estilos para pantallas con un ancho máximo de 768px (teléfonos móviles) */
+    #main {
+      width: 100%; /* El elemento principal ocupa todo el ancho de la pantalla */
+    }
+    .sidebar {
+      display: none; /* Oculta la barra lateral en pantallas pequeñas */
+    }
+    body {
+        width: 100%; /* El cuerpo ocupa el 100% del ancho disponible */
+        margin: 0; /* Elimina los márgenes predeterminados */
+        padding: 0; /* Elimina el relleno predeterminado */
+        max-width: 800px; /* El contenido tiene un ancho máximo de 800px */
+        box-sizing: border-box; /* El ancho incluye relleno y borde */
+        font-size: 16px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+      }
+      
+  }
+  
 
 body.dark-mode {
     background-color: #121212;
