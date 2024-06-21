@@ -64,6 +64,14 @@
         font-size: 38px; /* Tamaño de fuente para los encabezados h1 */
         margin-bottom: 20px; /* Espacio inferior entre h1 y el siguiente elemento */
         }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            .container > div {
+                flex: 1 1 100%; /* Full width on small screens */
+            }
+        }
     </style>
     <div class="title">
         <button id="toggle-dark-mode" class="dark-mode-toggle">Dark Mode</button> <!-- Botón para alternar el modo oscuro -->
