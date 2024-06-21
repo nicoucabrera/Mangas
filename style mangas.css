@@ -11,14 +11,6 @@ body {
     text-align: center;
 }
 
-@media (max-width: 600px) {
-    nav {
-        flex-direction: column;
-    }
-    .container > div {
-        flex: 1 1 100%; /* Full width on small screens */
-    }
-}
 
 img {
     max-width: 100%;

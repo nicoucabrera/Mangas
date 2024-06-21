@@ -64,7 +64,7 @@
         font-size: 38px; /* Tamaño de fuente para los encabezados h1 */
         margin-bottom: 20px; /* Espacio inferior entre h1 y el siguiente elemento */
         }
-        @media (max-width: 600px) {
+        @media (max-width: 500px) {
             nav {
                 flex-direction: column;
             }
@@ -80,6 +80,45 @@
 
             #search-bar {
                 flex-direction: column;
+            }
+            html, body {
+                flex-direction: column;
+                padding: 10px; /* Espacio alrededor del contenido */
+                text-align: center;
+                width: 100%;
+            }
+            .footer {
+                flex-direction: column;
+                padding: 10px; /* Espacio alrededor del contenido */
+                text-align: center;
+                width: 100%;
+            }
+            .social-media-section {
+                flex-direction: column;
+            }
+            .header {
+                flex-direction: column;
+                padding: 10px; /* Espacio alrededor del contenido */
+                text-align: center;
+                width: 100%;
+            }
+            #toggle-dark-mode {
+                margin-bottom: 10px;
+                right: 40px;
+            }
+            #back-button {
+                padding: 10px;
+                font-size: 16px;
+                margin-left: 10px;
+                cursor: pointer;
+            }
+
+            #search-button, #clear-button {
+                
+                font-size: 16px;
+                margin-left: 10px;
+                cursor: pointer;
+                padding: 10px 10px;
             }
         }
     </style>
