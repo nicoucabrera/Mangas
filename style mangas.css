@@ -196,418 +196,386 @@ body.dark-mode #toggle-dark-mode:hover {
     background-image: url('snk.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .SNK:hover {
     background-image: url('snk1.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .JOJOS {
     background-image: url('jojos.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .JOJOS:hover {
     background-image: url('jojos1.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .CenturyBoys {
     background-image: url('20thcenturyboys_01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .CenturyBoys:hover {
     background-image: url('20th.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .SlamDunk {
     background-image: url('slamdunk01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .SlamDunk:hover {
     background-image: url('slamm.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .DemonSlayer {
     background-image: url('demonslayer01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
-
 .DemonSlayer:hover {
     background-image: url('demonn.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .Another {
     background-image: url('another1.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .Another:hover {
     background-image: url('anotherr.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */ 
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .CodeGeas {
     background-image: url('codegeasslelouch1.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .CodeGeas:hover {
     background-image: url('lelouch.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .IndignoDeSerHumano {
     background-image: url('indignodeserhumano1.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .IndignoDeSerHumano:hover {
     background-image: url('Indigno-5.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .SteinsGate {
     background-image: url('steinsgate1.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .SteinsGate:hover {
     background-image: url('steinss.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .Jigokuraku {
     background-image: url('Jigokuraku01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .Jigokuraku:hover {
     background-image: url('Jigokuraku.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .DeathNote {
     background-image: url('deathnote01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .DeathNote:hover {
     background-image: url('ligth.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .TokyoRev {
     background-image: url('tokyorevengers01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .TokyoRev:hover {
     background-image: url('tokyorev.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .WindBreaker {
     background-image: url('WindBreaker.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
-
 .WindBreaker:hover {
     background-image: url('windbreakerrr.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .Haikyu {
     background-image: url('haikyu01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .Haikyu:hover {
     background-image: url('haikyuuu.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .BlueLock {
     background-image: url('bluelock01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .BlueLock:hover {
     background-image: url('bluelock.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .RurouniKenshin {
     background-image: url('rurounikenshinkan01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .RurouniKenshin:hover {
     background-image: url('samuraix.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .HeavenlyDelusion {
     background-image: url('Heavenly.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .HeavenlyDelusion:hover {
     background-image: url('tengoku-daimakyo-0.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .Ajin {
     background-image: url('ajin01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .Ajin:hover {
     background-image: url('ajinnn.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .Kaiju {
     background-image: url('kaiju01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .Kaiju:hover {
     background-image: url('Kaiju_No8_Key_Visual_2.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .LoserRanger {
     background-image: url('loserranger01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .LoserRanger:hover {
     background-image: url('loserranger.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .Chainsaw {
     background-image: url('chainsawman01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .Chainsaw:hover {
     background-image: url('chainsaw+man+cover.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .BNHA {
     background-image: url('myheroacademia01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .BNHA:hover {
     background-image: url('myheroacademia.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .Gachiakuta {
     background-image: url('gachiakuta01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .Gachiakuta:hover {
     background-image: url('gachiakutaaa.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .DrStone {
     background-image: url('DrStone.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .DrStone:hover {
     background-image: url('drstoneee.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .FireForce {
     background-image: url('FireForce.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .FireForce:hover {
     background-image: url('fireforceee.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .Bungo {
     background-image: url('bungoustraydogs01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .Bungo:hover {
     background-image: url('Bungo_Stray_Dogs.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .Shuumatsu {
     background-image: url('shuumatsunovalkyrie_01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .Shuumatsu:hover {
     background-image: url('shuumatsu.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .BlackClover {
     background-image: url('blackclover01.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .BlackClover:hover {
     background-image: url('black\ cloverr.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .YuGiOh {
     background-image: url('YuGiOh.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .YuGiOh:hover {
     background-image: url('yugi.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
 
 .Jujutsu {
     background-image: url('Jujutsu.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    border: 5px solid #c402f5;
+    border: 5px solid;
 }
 
 .Jujutsu:hover {
     background-image: url('jujutsu-kaisen.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
-    color: transparent; /* Oculta el texto haciendo que el color sea transparente */
 }
