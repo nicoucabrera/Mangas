@@ -186,6 +186,7 @@ body.dark-mode #toggle-dark-mode:hover {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    
 }
 
 .social-media-section h1 {
@@ -196,6 +197,8 @@ body.dark-mode #toggle-dark-mode:hover {
     width: 60px;
     height: 60px;
     border-radius: 20px;
+    margin: 0 6px; /* Añade espacio horizontal entre los enlaces */
+    display: inline-block; /* Asegura que los enlaces se comporten correctamente */
 }
 
 .SNK {
@@ -584,4 +587,84 @@ body.dark-mode #toggle-dark-mode:hover {
     background-image: url('jujutsu-kaisen.jpg'); /* Ruta a tu imagen de fondo */
     background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el botón */
+}
+
+@media (max-width: 767px) {
+    .search-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 0;
+        padding: 6px;
+    }
+
+    #search-bar {
+        width: min-content;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 14px; /* Tamaño de fuente para los párrafos */
+        line-height: 1; /* Espaciado entre líneas */
+        margin-bottom: 15px; /* Espacio inferior entre párrafos */
+    }
+
+    h1 {
+        font-size: 24px; /* Tamaño de fuente para los encabezados h1 */
+        margin-bottom: 20px; /* Espacio inferior entre h1 y el siguiente elemento */
+    }
+
+    html, body {
+        flex-direction: column;
+        padding: 0px; /* Espacio alrededor del contenido */
+        text-align: center;
+        margin: 0 auto; /* Centra el contenido horizontalmente */
+    }
+
+    .footer {
+        flex-direction: column; /* Coloca los elementos en columna */
+        align-items: center; /* Centra los elementos horizontalmente */
+        text-align: center; /* Centra el texto */
+        width: 100%;
+    }
+
+    .footer-section {
+        margin-bottom: 10px; /* Espaciado entre secciones */
+    }
+
+    .social-media-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header {
+        flex-direction: column;
+        padding: 10px; /* Espacio alrededor del contenido */
+        text-align: center;
+        margin: 0 auto; /* Centra el contenido horizontalmente */
+        width: 100%;
+    }
+
+    #toggle-dark-mode {
+        margin-bottom: 10px;
+        font-size: 5px;
+        padding: 5px 5px;
+    }
+
+    #back-button {
+        padding: 10px;
+        font-size: 16px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    #search-button, #clear-button {
+        font-size: 14px;
+        margin-left: 10px;
+        cursor: pointer;
+        padding: 5px 5px;
+    }
 }
