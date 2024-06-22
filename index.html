@@ -16,14 +16,14 @@
         .header {
             background-color: #868686; /* Color de fondo del encabezado */
             color: #ffffff;
-            padding: 20px; /* Espacio alrededor del contenido */
+            padding: 10px; /* Espacio alrededor del contenido */
             text-align: center; /* Alinear el texto al centro */
             width: 100%; /* Ocupar todo el ancho disponible */
         }
         .search-container {
             background-image: url('fondo2.jpg');
             width: 100%; /* Ocupar todo el ancho disponible */
-            padding: 75px 75px; /* Relleno superior e inferior de 10px */
+            padding: 6px ; /* Relleno superior e inferior de 10px */
             
         }
 
@@ -45,7 +45,7 @@
         .footer {
             background-color: #868686; /* Color de fondo del pie de página */
             color: #fff; /* Color de texto del pie de página */
-            padding: 10px; /* Espacio alrededor del contenido */
+            padding: 6px; /* Espacio alrededor del contenido */
             text-align: center; /* Alinear el texto al centro */
             width: 100%; /* Ocupar todo el ancho disponible */
         }
@@ -64,34 +64,53 @@
         font-size: 38px; /* Tamaño de fuente para los encabezados h1 */
         margin-bottom: 20px; /* Espacio inferior entre h1 y el siguiente elemento */
         }
-        @media (max-width: 500px) {
-            nav {
-                flex-direction: column;
-            }
-            .container > div {
-                flex: 1 1 100%; /* Full width on small screens */
-            }
-            .btn-container {
-                flex: 1 1 calc(33.33% - 10px); /* 3 botones por fila con espacio entre ellos */
-            }
+        @media (max-width: 767px) {
+            
             .search-container {
-                flex-direction: column;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 5px 0;
+                margin-left: 10px;
+                padding: 6px;
+                
+            }
+            
+            #search-bar {
+                
+                width: min-content;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                margin-right: 5px;
+                font-size: 12px;
             }
 
-            #search-bar {
-                flex-direction: column;
+            p {
+                font-size: 12px; /* Tamaño de fuente para los párrafos */
+                line-height: 1; /* Espaciado entre líneas */
+                margin-bottom: 15px; /* Espacio inferior entre párrafos */
             }
+
+            h1 {
+                font-size: 28px; /* Tamaño de fuente para los encabezados h1 */
+                margin-bottom: 20px; /* Espacio inferior entre h1 y el siguiente elemento */
+                }
+
             html, body {
                 flex-direction: column;
-                padding: 10px; /* Espacio alrededor del contenido */
+                padding: 0px; /* Espacio alrededor del contenido */
                 text-align: center;
-                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
             }
             .footer {
                 flex-direction: column;
-                padding: 10px; /* Espacio alrededor del contenido */
+                padding: 6px; /* Espacio alrededor del contenido */
                 text-align: center;
+                margin-left: auto;
+                margin-right: auto;
                 width: 100%;
+                
             }
             .social-media-section {
                 flex-direction: column;
@@ -100,11 +119,15 @@
                 flex-direction: column;
                 padding: 10px; /* Espacio alrededor del contenido */
                 text-align: center;
+                margin-left: auto;
+                margin-right: auto;
                 width: 100%;
             }
             #toggle-dark-mode {
                 margin-bottom: 10px;
-                right: 40px;
+                right: 4px;
+                font-size: 5px;
+                padding: 5px 5px;
             }
             #back-button {
                 padding: 10px;
@@ -115,10 +138,10 @@
 
             #search-button, #clear-button {
                 
-                font-size: 16px;
+                font-size: 14px;
                 margin-left: 10px;
                 cursor: pointer;
-                padding: 10px 10px;
+                padding: 5px 5px;
             }
         }
     </style>
